@@ -22,31 +22,30 @@ SW1(config)# interface FastEthernet0/1
 SW1(config-if)# switchport mode access
 ```
 
-```
 ### 2️⃣ Port güvenliğini aktif et
-
+```
 SW1(config-if)# switchport port-security
 ```
 
-```
-### 3️⃣ İzin verilecek maksimum cihaz sayısını sınırla
 
+### 3️⃣ İzin verilecek maksimum cihaz sayısını sınırla
+```
 SW1(config-if)# switchport port-security maximum 1
 ```
 
-```
-### 4️⃣ Güvenilir MAC adresi belirle (statik)
 
+### 4️⃣ Güvenilir MAC adresi belirle (statik)
+```
 SW1(config-if)# switchport port-security mac-address 0011.2233.4455
 
 🔄 **Alternatif: MAC adresi otomatik öğrenilsin**
-
+```
 SW1(config-if)# switchport port-security mac-address sticky
 ```
 
-```
-### 5️⃣ Kural ihlali durumunda alınacak aksiyonu belirle
 
+### 5️⃣ Kural ihlali durumunda alınacak aksiyonu belirle
+```
 SW1(config-if)# switchport port-security violation shutdown
 ```
 
