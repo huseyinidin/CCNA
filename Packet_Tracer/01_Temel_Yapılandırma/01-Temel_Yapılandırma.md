@@ -26,7 +26,7 @@ Switch(config-line)# exit
 ```
 ### NOT: 
 
-** Bulunduğunuz mod içerisinde kullanılan komutları yapıştırarak farklı cihazlar arasında hızlı işlemler yapabilirsin. ** 
+- Bulunduğunuz mod içerisinde kullanılan komutları yapıştırarak farklı cihazlar arasında hızlı işlemler yapabilirsin.
 
 ```
 enable
