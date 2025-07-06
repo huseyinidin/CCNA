@@ -21,3 +21,23 @@ Cisco switch ve router'larda kullanılan temel komut modlarının kısa açıkla
 
 ---
 
+# 1. User EXEC Mode (Kullanıcı Yürütme Modu)
+
+- **Giriş simgesi:** `>`
+
+- **Örnek:** `Switch>` veya `Router>`
+
+- **Erişim:** Cihaza ilk bağlandığınızda (`Konsol`, `SSH```, `Telnet`)
+
+- **Yapabilecekleriniz:** Temel izleme komutları (`ping`, `traceroute`, `show`, `logout`)
+
+- **Kısıtlama:** Yapılandırma değişiklikleri yapılamaz.
+
+- **Komuta geçiş:**
+
+```
+bash
+
+enable
+```
+---
