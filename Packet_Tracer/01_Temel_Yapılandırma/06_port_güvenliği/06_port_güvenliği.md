@@ -38,7 +38,7 @@ SW1(config-if)# switchport port-security maximum 1
 ```
 SW1(config-if)# switchport port-security mac-address 0011.2233.4455
 
-🔄 **Alternatif: MAC adresi otomatik öğrenilsin**
+🔄 Alternatif: MAC adresi otomatik öğrenilsin
 
 SW1(config-if)# switchport port-security mac-address sticky
 ```
@@ -50,11 +50,11 @@ SW1(config-if)# switchport port-security violation shutdown
 
 Diğer seçenekler:
 
-`**protect:**` Yalnızca yasaklı adresi engeller, log tutmaz
+`protect:` Yalnızca yasaklı adresi engeller, log tutmaz
 
-`**restrict:**` Yasaklı adresi engeller ve log kaydı oluşturur
+`restrict:` Yasaklı adresi engeller ve log kaydı oluşturur
 
-`**shutdown:**` Portu kapatır (en katı seçenek, varsayılan)
+`shutdown:` Portu kapatır (en katı seçenek, varsayılan)
 
 ---
 
