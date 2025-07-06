@@ -2,7 +2,7 @@
 
 ## 🔐 Amaç
 
-Cisco switch ve router'larda kullanıcı parolaları, yapılandırma dosyalarında **varsayılan olarak düz metin (plain text)** şeklinde görünür. Bu, güvenlik açısından büyük bir risk oluşturur.
+Cisco `switch` ve `router`'larda kullanıcı parolaları, yapılandırma dosyalarında **varsayılan olarak düz metin (plain text)** şeklinde görünür. Bu, güvenlik açısından büyük bir risk oluşturur.
 
 - `Startup-config` ve `running-config` dosyaları çoğu parolayı düz metin olarak görüntüler.
 
