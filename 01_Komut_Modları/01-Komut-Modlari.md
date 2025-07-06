@@ -69,9 +69,11 @@ Cisco switch ve router'larda kullanılan temel komut modlarının kısa açıkla
 - **Komuta geçiş:**
 
 ```
-`interface FastEthernet0/1`
-`line console 0`
-`router ospf 1`
+interface FastEthernet0/1
+
+line console 0
+
+router ospf 1
 ```
 
 ---
@@ -87,7 +89,7 @@ Cisco switch ve router'larda kullanılan temel komut modlarının kısa açıkla
 - **Komuta geçiş:**
 
 ```
-interface FastEthernet0/1
+(config)# interface FastEthernet0/1
 ```
 
 # 5. Line Configuration Mode
@@ -101,8 +103,9 @@ interface FastEthernet0/1
 - **Komuta geçiş:**
 
 ```
-line console 0
-line vty 0 4
+(config)# line console 0
+
+(config)# line vty 0 4
 ```
 
 # 6. VLAN Configuration Mode (Sadece switch’lerde)
@@ -116,7 +119,7 @@ line vty 0 4
 - **Komuta geçiş:**
 
 ```
-vlan 10
+(config)# vlan 10
 ```
 
 # 7. Router Configuration Mode (Sadece router’larda veya L3 switch’lerde)
@@ -130,5 +133,5 @@ vlan 10
 - **Komuta geçiş:**
 
 ```
-router ospf 1
+(config)# router ospf 1
 ```
