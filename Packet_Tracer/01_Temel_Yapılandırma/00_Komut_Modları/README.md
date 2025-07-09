@@ -92,6 +92,8 @@ router ospf 1
 (config)# interface FastEthernet0/1
 ```
 
+----
+
 # 5. Line Configuration Mode
 
 - **Giriş simgesi:** `(config-line)#`
@@ -108,6 +110,8 @@ router ospf 1
 (config)# line vty 0 4
 ```
 
+---
+
 # 6. VLAN Configuration Mode (Sadece switch’lerde)
 
 - **Giriş simgesi:** `(config-vlan)#`
@@ -122,6 +126,8 @@ router ospf 1
 (config)# vlan 10
 ```
 
+---
+
 # 7. Router Configuration Mode (Sadece router’larda veya L3 switch’lerde)
 
 - **Giriş simgesi:** `(config-router)#`
@@ -135,3 +141,4 @@ router ospf 1
 ```
 (config)# router ospf 1
 ```
+---
