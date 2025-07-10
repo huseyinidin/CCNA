@@ -172,7 +172,7 @@ SW1(config-if)# switchport trunk encapsulation dot1q    ! Bu komut L3 switch üz
 ```
 ---
 
-```
+
 ## 6️⃣ Trunk VLAN  
 
 - **Birden fazla VLAN’ın**, **aynı fiziksel port üzerinden** iletilmesini sağlar.  
@@ -189,7 +189,6 @@ SW1(config-if)# switchport trunk allowed vlan 10,20,99
 ```
 ---
 
-```
 
 ## 7️⃣ Özel VLAN (Private VLAN - PVLAN) Aynı VLAN içindeki **portlar arasında izolasyon** sağlar.  
 
@@ -226,7 +225,6 @@ SW1(config-if)# switchport private-vlan mapping 100 101,102
 ```
 ---
 
-```
 
 ## 8️⃣ Statik VLAN 
 
@@ -244,7 +242,6 @@ SW1(config-if)# switchport access vlan 30
 ```
 ---
 
-```
 
 ## 9️⃣ Dinamik VLAN 
 
