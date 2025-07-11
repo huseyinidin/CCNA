@@ -271,45 +271,55 @@ switchport nonegotiate
 Switch>enable 
 Switch#configure terminal 
 Enter configuration commands, one per line.  End with CNTL/Z.
-Switch(config)#**hostname MLSW**
+Switch(config)#hostname MLSW
+
 MLSW(config)#vlan 10
 MLSW(config-vlan)#name IT
 MLSW(config-vlan)#exit
+
 MLSW(config)#vlan 20
 MLSW(config-vlan)#name HR
 MLSW(config-vlan)#exit
+
 MLSW(config)#interface range gigabitethernet 1/0/1-2
-MLSW(config-if-range)#switchport mode trunk 
-MLSW(config-if-range)#switchport nonegotiate
+MLSW(config-if-range)#no switchport				
 MLSW(config-if-range)#exit
+
 MLSW(config)#ip routing
+
 MLSW(config)#interface vlan 10 
 MLSW(config-if)#ip address 192.168.10.1 255.255.255.0
 MLSW(config-if)#exit 
+
 MLSW(config)#interface vlan 20
 MLSW(config-if)#ip address 192.168.20.1 255.255.255.0
 MLSW(config-if)#exit 
 ```
 
 ```
-enable 
-configure terminal 
-**hostname MLSW**
-vlan 10
-name IT
-exit
-vlan 20
-name HR
-exit
-interface range gigabitethernet 1/0/1-2
-switchport mode trunk 
-switchport nonegotiate
-exit
-ip routing
-interface vlan 10 
-ip address 192.168.10.1 255.255.255.0
-exit 
-interface vlan 20
-ip address 192.168.20.1 255.255.255.0
-exit 
+enable                                      ! Privileged EXEC moduna geçilir
+configure terminal                          ! Global konfigürasyon moduna girilir
+hostname MLSW                               ! Switch'e "MLSW" ismi verilir (Layer 3 switch)
+
+vlan 10                                     ! VLAN 10 oluşturulur
+name IT                                     ! VLAN 10'a "IT" adı verilir
+exit                                        ! VLAN konfigürasyon modundan çıkılır
+
+vlan 20                                     ! VLAN 20 oluşturulur
+name HR                                     ! VLAN 20'ye "HR" adı verilir
+exit                                        ! VLAN konfigürasyon modundan çıkılır
+
+interface range gigabitethernet 1/0/1-2     ! G1/0/1 ve G1/0/2 portlarına aynı anda komut verilir
+no switchport                               ! Bu portlar Layer 3 port yapılır (IP atanabilir hale gelir)
+exit                                        ! Arayüz konfigürasyon modundan çıkılır
+
+ip routing                                  ! Layer 3 switch'te yönlendirme (routing) yeteneği açılır
+
+interface vlan 10                           ! VLAN 10 için SVI (virtual interface) oluşturulur
+ip address 192.168.10.1 255.255.255.0       ! VLAN 10'a IP adresi atanır
+exit                                        ! SVI modundan çıkılır
+
+interface vlan 20                           ! VLAN 20 için SVI (virtual interface) oluşturulur
+ip address 192.168.20.1 255.255.255.0       ! VLAN 20'ye IP adresi atanır
+exit                                        ! SVI modundan çıkılır
 ```
