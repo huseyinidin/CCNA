@@ -1,68 +1,38 @@
-\# 🚫 BPDU Filter Nedir?
+# 🚫 BPDU Filter Nedir?
 
+**BPDU Filter**, bir switch portunun **BPDU mesajlarını göndermesini veya almasını engelleyen** bir Spanning Tree özelliğidir.
+Yani bu özellik aktif edildiğinde, o port artık STP protokol mesajlarını **göndermez** ve **gelen mesajlara da tepki vermez.**
 
+## 🧠 **Ne İşe Yarar?**
 
-\*\*BPDU Filter\*\*, bir switch portunun \*\*BPDU mesajlarını göndermesini veya almasını engelleyen\*\* bir Spanning Tree özelliğidir.
+- Portun **Spanning Tree protokolünden bağımsız** kalmasını sağlar.
+- Genellikle uç cihazların bağlandığı portlarda, test/lab ortamlarında ya da özel topolojilerde kullanılır.
+- STP’in çalışmasını **geçici veya kalıcı olarak engellemek** için kullanılır.
 
-Yani bu özellik aktif edildiğinde, o port artık STP protokol mesajlarını \*\*göndermez\*\* ve \*\*gelen mesajlara da tepki vermez.\*\*
+## ⚙️ **Kullanım Komutları**
 
-
-
----
-
-
-
-\## 🧠 \*\*Ne İşe Yarar?\*\*
-
-
-
-\- Portun \*\*Spanning Tree protokolünden bağımsız\*\* kalmasını sağlar.
-
-\- Genellikle uç cihazların bağlandığı portlarda, test/lab ortamlarında ya da özel topolojilerde kullanılır.
-
-\- STP’in çalışmasını \*\*geçici veya kalıcı olarak engellemek\*\* için kullanılır.
-
-
-
-\## ⚙️ \*\*Kullanım Komutları\*\*
-
-
-
-\### 🔹 Arayüz (interface) bazlı yapılandırma
-
-
+### 🔹 Arayüz (interface) bazlı yapılandırma
 
 ```
 Switch(config)# interface fastethernet0/1
 Switch(config-if)# spanning-tree bpdufilter enable
 ```
 
-
-
 ```
 interface fastethernet0/1
 spanning-tree bpdufilter enable
 ```
-
 ---
 
-
-
-\## 🔹 Global Yapılandırma (PortFast ile Birlikte)
-
-
+## 🔹 Global Yapılandırma (PortFast ile Birlikte)
 
 BPDU Filter’ı tüm erişim portlarında otomatik olarak etkinleştirmek için aşağıdaki komutlar kullanılır:
-
-
 
 ```
 Switch(config)# spanning-tree portfast default		
 Switch(config)# spanning-tree bpdufilter default
 
 ```
-
-
 
 ```
 
