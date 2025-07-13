@@ -70,6 +70,7 @@ spanning-tree portfast
 ```
 
 ### ⚠️ **PortFast Uyarısı:**  
+
 - PortFast sadece uç cihazlara (PC, yazıcı vb.) bağlı **access portlarda** kullanılmalıdır.  
 - Eğer bu porta bir switch veya hub bağlanırsa **loop riski** oluşur.  
 - Ayrıca, PortFast yalnızca **trunk olmayan portlarda** etkili olur.
@@ -89,6 +90,10 @@ spanning-tree portfast disable
 ## 🔁 `spanning-tree portfast disable` Ne Yapar?
 
 ### 📌 Açıklama
+
+- İlgili port, artık PortFast özelliğini kullanmaz.
+- STP’nin normal sürecinden geçer (listening → learning → forwarding).
+- Bu, özellikle switch–switch bağlantılarında ya da BPDU alabilen portlarda güvenlik için tercih edilir.
 
 ```
 Switch(config)# spanning-tree portfast disable
