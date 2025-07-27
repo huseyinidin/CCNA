@@ -1,4 +1,4 @@
-# 🌐 EtherChannel Nedir? | CCNA Seviyesi Açıklama
+# 🌐 EtherChannel Nedir?
 
 ## 📌 Tanım
 
