@@ -27,7 +27,7 @@
 
 ## 🔧 Temel Konfigürasyon Örneği (LACP)
 
-
+```
 SW3(config)# interface range e0/0 - 2
 SW3(config-if-range)# switchport trunk encapsulation dot1q
 SW3(config-if-range)# switchport mode trunk
