@@ -89,7 +89,7 @@ DHCPv4, aşağıdaki ortamlarda yaygın olarak kullanılır:
 
 Aşağıdaki örnekte, 192.168.10.1 ila 192.168.10.10 arasındaki IP’ler rezervasyon veya manuel atama için ayrılmıştır:
 ```
-Router(config)# ip dhcp excluded-address 192.168.10.1 192.168.10.50
+Router(config)# ip dhcp excluded-address 192.168.10.1 192.168.10.10
 ```
 
 ```
