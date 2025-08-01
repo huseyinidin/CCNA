@@ -100,15 +100,17 @@ enable
 configure terminal 
 ipv6 unicast-routing
 ```
-```
+
 **! DHCPv6 havuzu oluştur**
+```
 ipv6 dhcp pool STATEFUL-IT
 address prefix 2001:DB8:8000:1::/64
 dns-server 2001:DB8:8000:1::2
 domain-name cisco.local
-
 ```
+
 **! Arayüze adres ve DHCPv6 havuzu bağla**
+```
 interface gigabitEthernet 0/0
 ipv6 address 2001:DB8:8000:1::1/64
 ipv6 dhcp server STATEFUL-IT
@@ -165,14 +167,16 @@ enable
 configure terminal 
 ipv6 unicast-routing
 ```
-```
+
 **! DHCPv6 havuzu oluştur**
+```
 ipv6 dhcp pool STATELESS-HR
 dns-server 2001:DB8:8000:2::2
 domain-name hr.local
-
 ```
+
 **! Arayüze IPv6 adresi ver, havuzu bağla ve RA bayraklarını ayarla**
+```
 interface gigabitEthernet 0/0
 ipv6 address 2001:DB8:8000:2::1/64
 ipv6 dhcp server STATELESS-HR
