@@ -56,3 +56,15 @@ Her bölümde konu anlatımı, yapılandırma adımları ve uygulamalı örnekle
 📁 [*Section 8: SLAAC ve DHCPv6*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/08_SLAAC_and_DHCPv6)
 
 ---
+
+## 📂 Bölüm 9 – FHRP Concepts
+
+📁 [*Section 9: FHRP Concepts*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/09_FHRP_Concepts)
+
+---
+
+## 📂 Bölüm 10 – LAN Security Concepts
+
+📁 [*Section 10: LAN Security Concepts*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts)
+
+---
