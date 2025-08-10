@@ -103,8 +103,8 @@ LAN güvenliği, kurumların veri güvenliği, süreklilik ve yasal yükümlül�
 
 ## 📚 **Konu Özetlerine buradan ulaşabilirsiniz** 
 
-[*Endpoint Security:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/EndpointSecurity)
-[*Access Control:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/AccessControl)
-[*Layer 2 Security Threats:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/Layer2SecurityThreats)
-[*Mac Address Table Attack:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/MacAddressTableAttack)
-[*Lan Attacks:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/LanAttacks)
+[*Endpoint Security:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/EndpointSecurity.md)
+[*Access Control:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/AccessControl.md)
+[*Layer 2 Security Threats:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/Layer2SecurityThreats.md)
+[*Mac Address Table Attack:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/MacAddressTableAttack.md)
+[*Lan Attacks:*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts/LanAttacks.md)
