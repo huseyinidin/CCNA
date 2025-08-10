@@ -42,14 +42,14 @@ IPv6'da adres yapılandırması için üç temel yöntem vardır:
 ```
 Router(config)# ipv6 unicast-routing
 Router(config)# interface g0/0
-Router(config-if)# ipv6 address 2001:DB8:10::1/64
+Router(config-if)# ipv6 address 2001:DB8:8000:1::1/64
 Router(config-if)# no shutdown
 ```
 
 ```
 ipv6 unicast-routing
 interface g0/0
-ipv6 address 2001:DB8:10::1/64
+ipv6 address 2001:DB8:8000:1::1/64
 no shutdown
 ```
 - Bu yapılandırmadan sonra g0/0 arayüzünde RA mesajları gönderilmeye başlanır. SLAAC aktif hale gelir.
@@ -107,16 +107,13 @@ ipv6 dhcp pool STATEFUL-IT
 address prefix 2001:DB8:8000:1::/64
 dns-server 2001:DB8:8000:1::2
 domain-name cisco.local
+exit
 ```
 
 **! Arayüze adres ve DHCPv6 havuzu bağla**
 ```
 interface gigabitEthernet 0/0
-ipv6 address 2001:DB8:8000:1::1/64
-ipv6 dhcp server STATEFUL-IT
-ipv6 nd managed-config-flag
-ipv6 nd other-config-flag
-no shutdown   
+int	   
 ```
 ---
 
