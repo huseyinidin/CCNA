@@ -47,7 +47,7 @@ Her bölümde konu anlatımı, yapılandırma adımları ve uygulamalı örnekle
 
 ## 📂 Bölüm 7 – DHCPv4
 
-📁 [*Section 7: 07_DHCPv4 Kavramları*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/07_DHCPv4)
+📁 [*Section 7: DHCPv4 Kavramları*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/07_DHCPv4)
 
 ---
 
