@@ -68,3 +68,9 @@ Her bölümde konu anlatımı, yapılandırma adımları ve uygulamalı örnekle
 📁 [*Section 10: LAN Security Concepts*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/10_LAN_Security_Concepts)
 
 ---
+
+## 📂 Bölüm 11 – Switch Security Configuration
+
+📁 [*Section 11: Switch Security Configuration*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/11_Switch_Security_Configuration)
+
+---
