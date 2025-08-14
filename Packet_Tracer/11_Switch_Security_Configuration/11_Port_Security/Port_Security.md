@@ -17,28 +17,28 @@ interface FastEthernet0/1
 ```
 ---
 
-```
+
 ** Portu access moda al **
-switchport mode access                			# Portu access moduna geçir (Port Security sadece access portlarda çalışır)
+`switchport mode access                			# Portu access moduna geçir (Port Security sadece access portlarda çalışır)`
 
 ** VLAN ataması yap **
-switchport access vlan 10              			# Portu VLAN 10'a atar
+`switchport access vlan 10              		# Portu VLAN 10'a atar`
 
 ** Port Security özelliğini aktif et **
-switchport port-security              			# Port Security özelliğini aktif eder
+`switchport port-security              			# Port Security özelliğini aktif eder`
 
 ** Maksimum cihaz sayısını belirle **
-switchport port-security maximum 2     			# Porttan en fazla 2 farklı MAC adresi geçebilir
+`switchport port-security maximum 2     			# Porttan en fazla 2 farklı MAC adresi geçebilir`
 
 ** Sticky öğrenme yöntemi **
-switchport port-security mac-address sticky    		# Bağlanan cihazların MAC adreslerini öğrenip konfigürasyona yazar
+`switchport port-security mac-address sticky    		# Bağlanan cihazların MAC adreslerini öğrenip konfigürasyona yazar`
 
 ** Manuel MAC adresi ekleme (opsiyonel) **
-switchport port-security mac-address 0000.1111.2222   	# Sadece bu MAC adresine izin verir
+`switchport port-security mac-address 0000.1111.2222   	# Sadece bu MAC adresine izin verir`
 
 ** Violation mode belirleme **
-switchport port-security violation shutdown    		# İhlalde portu kapatır (varsayılan mod)
-```
+`switchport port-security violation shutdown    		# İhlalde portu kapatır (varsayılan mod)`
+
 ---
 
 ```
