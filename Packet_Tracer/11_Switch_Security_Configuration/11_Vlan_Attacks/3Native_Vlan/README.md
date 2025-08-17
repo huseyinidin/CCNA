@@ -10,7 +10,7 @@ Switch(config-if)# switchport trunk native vlan 100
 
 ```
 
-⚠️ **Dikkat: Native VLAN olarak atanan VLAN’da aktif cihaz bulunmamasına dikkat edin.**
+⚠️ **Native VLAN olarak atanan VLAN’da aktif cihaz bulunmamasına dikkat edin.**
 
 ---
 
