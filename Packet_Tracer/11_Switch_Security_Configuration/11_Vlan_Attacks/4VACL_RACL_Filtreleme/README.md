@@ -5,7 +5,9 @@
 Cisco 2960 Layer 2 switch VACL (VLAN ACL) özelliğini desteklemez. Bunun yerine PACL (Port ACL) kullanılabilir. Yani filtrelemeyi VLAN bazlı değil, port bazlı yapabilirsin.
 
  ===============================
+
  1️⃣ Layer 2 Switch (2960) Konfigürasyonu
+
  ===============================
 
 ```
@@ -43,7 +45,9 @@ interface fastEthernet0/3
 ```
 
  ===============================
+
  2️⃣ Router (2911) Konfigürasyonu
+
  ===============================
 
 ```
@@ -65,7 +69,9 @@ interface gigabitEthernet0/0.20
 ```
 
  ===============================
+
  3️⃣ VLAN Bazlı ACL (RACL) Konfigürasyonu
+
  ===============================
 
 ```
