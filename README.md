@@ -74,3 +74,21 @@ Her bölümde konu anlatımı, yapılandırma adımları ve uygulamalı örnekle
 📁 [*Section 11: Switch Security Configuration*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/11_Switch_Security_Configuration)
 
 ---
+
+## 📂 Bölüm 12 – Wlans
+
+📁 [*Section 12: Wlans*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/12_Wlans)
+
+---
+
+## 📂 Bölüm 13 – Wlans Configuration
+
+📁 [*Section 13: Wlans Configuration - Eklenecek*]()
+
+---
+
+## 📂 Bölüm 14 – Routing Concepts
+
+📁 [*Section 14: Routing Concepts*](https://github.com/huseyinidin/CCNA/tree/main/Packet_Tracer/14_Routing_Concepts)
+
+---
